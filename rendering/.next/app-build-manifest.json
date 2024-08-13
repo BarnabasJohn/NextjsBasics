@@ -1,0 +1,32 @@
+{
+  "pages": {
+    "/client-route/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/client-route/page.css",
+      "static/chunks/app/client-route/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/server-route/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/server-route/page.css",
+      "static/chunks/app/server-route/page.js"
+    ],
+    "/landing-page/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/landing-page/page.js"
+    ],
+    "/interleaving/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/interleaving/page.js"
+    ]
+  }
+}

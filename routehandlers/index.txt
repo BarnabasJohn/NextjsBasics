@@ -1,0 +1,12 @@
+33. Route Handlers
+34. Handling GET Requests
+35. Handling POST Requests
+36. Dynamic Route Handlers
+37. Handling Patch Requests
+38. Handling DELETE Requests
+39. URL Query parameters
+40. Redirects in route handlers
+41. Headers in route handlers
+42. Cookies in route handlers
+43. Caching in route handlers
+44. Middleware

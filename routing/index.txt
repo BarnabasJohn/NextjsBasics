@@ -1,0 +1,28 @@
+5.Routing
+6.Nested Routing
+7. Dynamic Routes
+8. Nested Dynamic Routes
+9. Catch all Segments
+10. Custom not found page
+11. File collocation
+12. Private routes
+13. Route Groups
+14. Layouts
+15. Nested Layouts
+16. Route Group Layouts
+17. Routing Metadata
+18. title metadata
+19. Link component navigation
+20. Active links
+21. Navigating programmatically
+22. Templates
+23. Loading ui
+24. Error handling
+25. Recovering from errors
+26. handling errors in nested routes
+27. handling errors in layouts
+28. Parallel routes
+29. Unmatched routes
+30. Conditional routes
+31. Intercepting routes
+32. Parallel Intercepting routes

@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("src/middleware",{
+
+/***/ "(middleware)/./src/middleware.ts":
+/*!***************************!*\
+  !*** ./src/middleware.ts ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   middleware: () => (/* binding */ middleware)\n/* harmony export */ });\n// export function middleware(request: NextRequest) {\n//   return NextResponse.redirect(new URL(\"/\", request.url));\n// }\n// export const config = {\n//   matcher: \"/profile\",\n// };\nfunction middleware(request) {\n// redirection\n// if (request.nextUrl.pathname === \"/profile\") {\n//   return NextResponse.redirect(new URL(\"/hello\", request.nextUrl));\n// }\n//url rewrite\n// if (request.nextUrl.pathname === \"/profile\") {\n//   return NextResponse.rewrite(new URL(\"/hello\", request.nextUrl));\n// }\n// cookies and headers\n// const themePreference = request.cookies.get(\"theme\");\n// const response = NextResponse.next();\n// if (!themePreference) {\n//   response.cookies.set(\"theme\", \"dark\");\n// }\n// response.headers.set(\"custom-header\", \"custom-value\");\n// return response;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKG1pZGRsZXdhcmUpLy4vc3JjL21pZGRsZXdhcmUudHMiLCJtYXBwaW5ncyI6Ijs7OztBQUdBLHFEQUFxRDtBQUNyRCw2REFBNkQ7QUFDN0QsSUFBSTtBQUVKLDBCQUEwQjtBQUMxQix5QkFBeUI7QUFDekIsS0FBSztBQUVFLFNBQVNBLFdBQVdDLE9BQW9CO0FBQzdDLGNBQWM7QUFDZCxpREFBaUQ7QUFDakQsc0VBQXNFO0FBQ3RFLElBQUk7QUFDSixhQUFhO0FBQ2IsaURBQWlEO0FBQ2pELHFFQUFxRTtBQUNyRSxJQUFJO0FBQ0osc0JBQXNCO0FBQ3RCLHdEQUF3RDtBQUN4RCx3Q0FBd0M7QUFDeEMsMEJBQTBCO0FBQzFCLDJDQUEyQztBQUMzQyxJQUFJO0FBQ0oseURBQXlEO0FBRXpELG1CQUFtQjtBQUNyQiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvbWlkZGxld2FyZS50cz9kMTk5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5leHRSZXNwb25zZSB9IGZyb20gXCJuZXh0L3NlcnZlclwiO1xuaW1wb3J0IHR5cGUgeyBOZXh0UmVxdWVzdCB9IGZyb20gXCJuZXh0L3NlcnZlclwiO1xuXG4vLyBleHBvcnQgZnVuY3Rpb24gbWlkZGxld2FyZShyZXF1ZXN0OiBOZXh0UmVxdWVzdCkge1xuLy8gICByZXR1cm4gTmV4dFJlc3BvbnNlLnJlZGlyZWN0KG5ldyBVUkwoXCIvXCIsIHJlcXVlc3QudXJsKSk7XG4vLyB9XG5cbi8vIGV4cG9ydCBjb25zdCBjb25maWcgPSB7XG4vLyAgIG1hdGNoZXI6IFwiL3Byb2ZpbGVcIixcbi8vIH07XG5cbmV4cG9ydCBmdW5jdGlvbiBtaWRkbGV3YXJlKHJlcXVlc3Q6IE5leHRSZXF1ZXN0KSB7XG4gIC8vIHJlZGlyZWN0aW9uXG4gIC8vIGlmIChyZXF1ZXN0Lm5leHRVcmwucGF0aG5hbWUgPT09IFwiL3Byb2ZpbGVcIikge1xuICAvLyAgIHJldHVybiBOZXh0UmVzcG9uc2UucmVkaXJlY3QobmV3IFVSTChcIi9oZWxsb1wiLCByZXF1ZXN0Lm5leHRVcmwpKTtcbiAgLy8gfVxuICAvL3VybCByZXdyaXRlXG4gIC8vIGlmIChyZXF1ZXN0Lm5leHRVcmwucGF0aG5hbWUgPT09IFwiL3Byb2ZpbGVcIikge1xuICAvLyAgIHJldHVybiBOZXh0UmVzcG9uc2UucmV3cml0ZShuZXcgVVJMKFwiL2hlbGxvXCIsIHJlcXVlc3QubmV4dFVybCkpO1xuICAvLyB9XG4gIC8vIGNvb2tpZXMgYW5kIGhlYWRlcnNcbiAgLy8gY29uc3QgdGhlbWVQcmVmZXJlbmNlID0gcmVxdWVzdC5jb29raWVzLmdldChcInRoZW1lXCIpO1xuICAvLyBjb25zdCByZXNwb25zZSA9IE5leHRSZXNwb25zZS5uZXh0KCk7XG4gIC8vIGlmICghdGhlbWVQcmVmZXJlbmNlKSB7XG4gIC8vICAgcmVzcG9uc2UuY29va2llcy5zZXQoXCJ0aGVtZVwiLCBcImRhcmtcIik7XG4gIC8vIH1cbiAgLy8gcmVzcG9uc2UuaGVhZGVycy5zZXQoXCJjdXN0b20taGVhZGVyXCIsIFwiY3VzdG9tLXZhbHVlXCIpO1xuXG4gIC8vIHJldHVybiByZXNwb25zZTtcbn1cbiJdLCJuYW1lcyI6WyJtaWRkbGV3YXJlIiwicmVxdWVzdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(middleware)/./src/middleware.ts\n");
+
+/***/ })
+
+});

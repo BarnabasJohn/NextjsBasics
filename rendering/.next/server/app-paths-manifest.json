@@ -1,0 +1,6 @@
+{
+  "/client-route/page": "app/client-route/page.js",
+  "/server-route/page": "app/server-route/page.js",
+  "/landing-page/page": "app/landing-page/page.js",
+  "/interleaving/page": "app/interleaving/page.js"
+}
